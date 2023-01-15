@@ -3,10 +3,10 @@
 class Solution{
 public:	
 	
-	  int findKRotation(int arr[], int n) {
+  int findKRotation(int arr[], int n) {
         
         // Base Case
-	      if(n==1) return 0;
+	if(n==1) return 0;
         
         int start = 0;
         int end = n-1;
